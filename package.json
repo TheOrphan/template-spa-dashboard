@@ -8,7 +8,7 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
@@ -16,20 +16,46 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@mantine/carousel": "^7.12.2",
+    "@mantine/charts": "^7.12.2",
+    "@mantine/core": "7.12.2",
+    "@mantine/dates": "^7.12.2",
+    "@mantine/dropzone": "^7.12.2",
+    "@mantine/form": "^7.12.2",
+    "@mantine/hooks": "7.12.2",
+    "@mantine/modals": "^7.12.2",
+    "@mantine/notifications": "^7.12.2",
+    "@mantine/tiptap": "^7.12.2",
+    "@tabler/icons-react": "^3.14.0",
+    "@tiptap/extension-link": "^2.6.6",
+    "@tiptap/react": "^2.6.6",
+    "@tiptap/starter-kit": "^2.6.6",
+    "dayjs": "^1.11.13",
+    "embla-carousel-react": "^8.2.1",
     "gatsby": "^5.13.7",
     "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-layout": "^4.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-nprogress": "^5.13.1",
+    "gatsby-plugin-postcss": "^6.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-plugin-sitemap": "^6.13.1",
+    "gatsby-remark-responsive-iframe": "^6.13.2",
     "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-remark": "^6.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
+    "postcss": "^8.4.35",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "recharts": "2"
   },
   "devDependencies": {
     "@types/node": "^20.11.19",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
-    "typescript": "^5.3.3"
+    "eslint-plugin-flowtype": "^8.0.3",
+    "postcss-preset-mantine": "1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "typescript": "^5.4.2"
   }
 }
